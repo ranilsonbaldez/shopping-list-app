@@ -1,9 +1,13 @@
 import './App.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
   return (
     <>
-      <h1>Lista de Compras</h1>
+      <Header />
+      
+      <Footer />
     </>
   )
 }
