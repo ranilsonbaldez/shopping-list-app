@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 25px;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(39, 118, 187);
+    position: fixed;
+}
+
+.sum {
+    background-color: #506FDC;
+    border-radius: 15%;
+}
+
+p {
+    margin: 7px;
+}
