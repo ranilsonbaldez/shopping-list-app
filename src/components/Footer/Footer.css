@@ -1,5 +1,4 @@
 footer.footer-style {
-    background-color: #444F71;
-    position: fixed;
-    margin-top: 130px;
+    background-color: rgb(63, 103, 0);
+    /* position: fixed; */
 }

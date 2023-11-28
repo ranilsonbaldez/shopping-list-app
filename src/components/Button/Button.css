@@ -1,0 +1,14 @@
+.btn-input {
+    color: rgb(255, 255, 255);
+    background-color: rgba(13, 188, 211, 1);
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 590px) {
+    .btn-input {
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+    }
+}

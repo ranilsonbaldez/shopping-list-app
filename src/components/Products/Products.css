@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(178, 127, 1);
+    padding-top: 230px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    
+    background-color: rgba(19, 36, 0, 1);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 200px;
+    width: 500px;
+    height: 30px;
+}
+
+.index {
+    width: 30px;
+    margin-top: 2.5px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.check {
+    background-color: rgba(19, 36, 0, 1);
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    width: 290px;
+    padding-left: 5px;
+    margin-top: 2.5px;
+
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+}
+
+.price {
+    width: 80px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price > input {
+    width: 70px;
+    height: 25px;
+}
+
+.quantity {
+    width: 40px;
+    height: 25px;
+    margin-top: 2.5px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.delete {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.list {
+    width: 564px;
+}
+
+.products-list {
+    display: flex;
+    justify-content: flex-start;
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 500px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+li:hover {
+    background-color: rgb(223, 223, 223);
+}
